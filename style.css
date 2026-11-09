@@ -1261,7 +1261,7 @@ PRICING ↓
   left: 0px;
   right: 0px;
   top: 0px;
-  height: 0.5 rem;
+  height: 0.5rem;
   border-top-left-radius: 0.05rem;
   border-top-right-radius: 0.5rem;
 }
@@ -1324,6 +1324,11 @@ PRICING ↓
   border-bottom: 2px solid rgb(229, 231, 235);
 }
 
+.plan:nth-child(2) .plan__middle {
+    border-top: 2px solid rgb(102, 126, 234);
+    border-bottom: 2px solid rgb(102, 126, 234);
+}
+
 .plan__middle {
   margin-left: -2rem;
   margin-right: -2rem;
@@ -1349,6 +1354,12 @@ PRICING ↓
   );
 }
 
+.plan:nth-child (2) .plan__name, .plan:nth-child(2) .plan__price, .plan:nth-child (2) .plan__target, .plan:nth-child(2) .plan__duration, .plan:nth-child(2) .plan__feature {color: rgb (247, 250, 252)}
+
+.plan:nth-child(2) .plan__button {
+    color:#6415ff; 
+    background-color: rgb(247, 250, 252);
+}
 .plan__target {
   font-size: 20px;
   font-weight: 700;
@@ -1360,7 +1371,8 @@ PRICING ↓
   margin-top: 20px;
   font-weight: 500;
   color: rgb(113, 128, 150);
-  font-size: 1.5;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .plan__bottom {
