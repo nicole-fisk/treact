@@ -1,5 +1,8 @@
-css: @import
-  url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+CSS:
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
@@ -421,6 +424,7 @@ p {
   background-color: #6415ff;
   color: #fff;
   font-weight: 700;
+  padding: 0 12px;
   font-size: 16px;
   transition: 300ms;
 }
@@ -608,6 +612,8 @@ FEATURES ↓
 
 .feature__row {
   display: flex;
+  align-items: start;
+  gap: 12px;
 }
 
 .feature__img--wrapper {
@@ -846,6 +852,7 @@ img {
   height: 80px;
   position: absolute;
   right: 0px;
+  bottom: 0;
   fill: rgb(100, 21, 255);
   --tw-text-opacity: 1;
   color: rgba(100, 21, 255, var(--tw-text-opacity));
@@ -1760,6 +1767,8 @@ MOBILE RESPONSIVENESS ↓
     padding: 80px 32px;
   }
 }
+
+@media (max-width:1024px) {#features .section__title, #pricing .section__title {font-size: 48px;}}
 
 @media (max-width: 768px) {
   #quality .row,
