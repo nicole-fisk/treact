@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", system-ui;
+  font-family: "Inter", sans-serif;
   color: #243e63;
 }
 
@@ -363,8 +363,10 @@ p {
 }
 
 .header__customers--title {
-  color: rgb(160, 174, 192);
-  font-weight: 700;
+    margin-top: 80px;
+    color: rgb(160, 174, 192);
+    font-size: 12px;
+    font-weight: 700;
 }
 
 .img {
@@ -559,6 +561,10 @@ img {
   display: block;
 }
 
+#quality .btn {
+    margin-top: 32px;
+}
+
 /* 
 
 STEPS ↓
@@ -712,6 +718,13 @@ VALUES ↓
   margin-top: 16px;
   line-height: 1.625;
   color: rgb(113, 128, 150);
+}
+
+.value__name {
+    margin-left: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #243e63;
 }
 /*
 
@@ -1332,7 +1345,7 @@ footer {
 .footer__divider {
   width: 100%;
   height: 2px;
-  margin: 64px 0px;
+  margin: 64px 0;
   background: rgb(100, 21, 255);
 }
 
@@ -1445,8 +1458,8 @@ a {
 
 .footer__blob--1 {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   width: 320px;
   height: 320px;
   transform: translateX(-80px) translateY(-128px);
@@ -2145,6 +2158,70 @@ main {
 @media (max-width: 640px) {
     .start__button:nth-child(2) {
         margin-top: 16px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .feature__row {
+        padding: 32px 8px;
+        margin: 0 16px;
+    }
+}
+
+@media (max-width: 640px) {
+    .feature__row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 640px) {
+    .testimonial__img {
+        height: 64px;
+        width: 64px;
+    }
+}
+
+@media (max-width: 640px) {
+    .testimonial__details {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+}
+
+@media (max-width: 640px) {
+    .testimonial__buttons {
+        margin-top: 32px;
+    }
+}
+
+@media (max-width: 640px) {
+    .testimonial__para {
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 640px) {
+    .testimonial__bottom {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 4px;
+    }
+}
+
+@media (max-width: 640px) {
+    .footer__column {
+        width: auto;
+        padding: 0 16px;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 640px) {
+    .footer__columns {
+        justify-content: center;
     }
 }
 
