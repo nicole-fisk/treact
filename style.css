@@ -668,10 +668,6 @@ VALUES ↓
 .values__description,
 .values__img {
   width: 50%;
-  margin-top: 32px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 .values__description {
@@ -2017,6 +2013,9 @@ main {
 
 .value {
   margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 @media (max-width: 768px) {
