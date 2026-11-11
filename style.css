@@ -2193,11 +2193,14 @@ main {
 }
 
 @media (max-width: 640px) {
-    .testimonial__bottom .testimonial__profile {
+    .testimonial__bottom {
         flex-direction: column;
         align-items: center;
         padding-top: 4px;
     }
+    .testimonial__profile {
+        flex-direction: column;
+        align-items: center;}
 }
 
 @media (max-width: 640px) {
